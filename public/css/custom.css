@@ -1,0 +1,186 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+:root {
+    --rating-color: yellow;
+    --main-bg-color: yellow;
+    --main-txt-color: black;
+    --main-padding: 15px;
+}
+
+#themeColor{
+    color: #69BB70;
+    color: #F8B118;
+    color: #00AFEF;
+    color: #ED3237;
+    color: #EEE;
+    color: #707070;
+}
+.no-padding{padding: 0 !important;}
+.margin-side{margin: 0 15px;}
+.text-right{float: right;}
+.bg-white{background-color: #fff;}
+.bg-grey{background-color: #EEE;}
+.bg-darkgrey{background-color: #707070;}
+.status{font-size: 16px; font-weight: 600}
+.text-yellow{color: #F8B118}
+.text-blue{color: #00AFEF}
+.text-red{color: #ED3237}
+.text-green{color: #69BB70}
+.text-justify{text-align: justify;}
+.btn-green{background-color: #69BB70;border: 1px solid #69BB70;color: #fff;transition: .2s ease;}
+.btn-green:hover{opacity: .7;transition: .2s ease;cursor: pointer;}
+.btn-white{background-color: #fff; /* border: 2px solid #69BB70; */color: #69BB70;transition: .2s ease;}
+.btn-white:hover{opacity: .7;transition: .2s ease;cursor: pointer;}
+
+.navbar-def.scrolled{background-color: #fff;-webkit-box-shadow: 0px 1px 2px 0px rgba(238,238,238,0.75);-moz-box-shadow: 0px 1px 2px 0px rgba(238,238,238,0.75);box-shadow: 0px 1px 2px 0px rgba(238,238,238,0.75);;transition: .3s ease;}
+.navbar-def.scrolled .navbar-nav > li > a{color: #000;}
+.navbar-def.scrolled .navbar-nav > li > a:hover, .navbar-def.scrolled .navbar-nav > li > a:focus{color: #69BB70;}
+.navbar-def.scrolled .navbar-text{color: #000}
+.navbar-def{background-color: rgba(0, 0, 0, .6);border: none;-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0 !important;transition: .3s ease;position: fixed;padding: 0 20px;}
+.navbar-def .navbar-nav > li > a{color: #fff;}
+.navbar-def .navbar-nav > li > a:hover, .navbar-def .navbar-nav > li > a:focus{background-color: rgba(0, 0, 0, 0);color: #F8B118;}
+.navbar-def .navbar-text{font-weight: bold;color: #fff;}
+.navbar-def .navbar-toggle {border-color: #fff;}
+.navbar-def .navbar-toggle .icon-bar{background-color: #fff;}
+.navbar-def .navbar-toggle:hover, .navbar-def .navbar-toggle:focus {background-color: #F8B118;}
+.navbar-def.scrolled .navbar-toggle {border-color: #000;}
+.navbar-def.scrolled .navbar-toggle .icon-bar{background-color: #000;}
+.navbar-def.scrolled .navbar-toggle:hover, .navbar-def.scrolled .navbar-toggle:focus {background-color: #69BB70;}
+
+.landing-bg{background-image: url(../gallery/material/city_background.jpg);background-size: cover;background-attachment: fixed;width: 100%;height: 739px;margin-top: -73px;}
+.landing-page{position: absolute;height: 616px;width: 100%;background-color: rgba(0, 0, 0, .6);margin-top: 123px;}
+.landing-page .row{margin: 150px 105px;}
+.landing-page h1{color: #fff;line-height: 60px;font-weight: 600;}
+
+#aboutUs{width: 100%;}
+#aboutUs .row{width: 100%;}
+#aboutUs img{width: 100%;}
+#aboutUs p{font-size: 18px;}
+#aboutUs .about-text{padding: 50px 100px 50px 50px;}
+#aboutUs .about-link{text-decoration: none;font-size: 20px;color: #69BB70;transition: .3s ease;text-align: right;}
+#aboutUs .about-link:hover{color: #F8B118;transition: .3s ease;}
+
+#info{background-color: #EEE;height: 675px;padding-top: 55px;}
+#info .panel{border: none;margin-top: 25px;}
+#info .panel:hover{-webkit-box-shadow: 1px 1px 2px 0px rgba(112,112,112,.5);-moz-box-shadow: 1px 1px 2px 0px rgba(112,112,112,.5);box-shadow: 1px 1px 3px 0px rgba(112,112,112,.5);transition: .3s ease;}
+#info .panel-body p{font-size: 18px;text-align: justify;}
+
+#footer{background-color: #fff;}
+#footer .list-account, #footer .list-menu{padding: 25px 50px;}
+#footer .list-account a, #footer .list-menu a{text-decoration: none;color: #69BB70;transition: .3s ease;}
+#footer .list-account a:hover, #footer .list-menu a:hover{color: #F8B118;transition: .3s ease;}
+#footer .contact a{text-decoration: none;color: #000;transition: .3s ease;}
+#footer .contact a:hover{color: #69BB70;transition: .3s ease;}
+#footer .contact p{font-size: 16px;}
+#footer .copyright{padding: 10px;background-color: #EEE;}
+#footer .copyright a{text-decoration: none;color: #000;}
+
+.login-bg{position: absolute;background-image: url(../gallery/material/login_background.jpg);background-size: cover;background-attachment: fixed;width: 100%;}
+.login{position: relative;width: 100%;background-color: rgba(0, 0, 0, .6);margin: 0 !important;}
+.login .login-head{margin-top: 100px;padding: 0 50px;min-height: 90vh}
+.login .login-head h1, .login .login-head p{color: #fff;}
+.login .login-head h1{font-size: 48px;font-weight: 600;}
+.login .login-head p{font-size: 38px;font-weight: 400;}
+.login .login-box{width: 100%;min-height: 120vh !important;background-color: #fff;margin-top: -20px;}
+.login .login-box h2{text-align: center;padding: 100px 0 0;}
+.login .login-form{padding: 10px 75px 50px;}
+.login .login-form .form-group, .login .login-form button{margin: 25px 0;}
+
+#profile{margin-top: 80px;margin-bottom: 30px;}
+#profile a{text-decoration: none;color: #69BB70;transition: .2s ease;}
+#profile a:hover{color: #F8B118;transition: .2s ease;}
+#profile .panel{border: none;border-radius: 0;}
+#profile .profile-data{padding: 20px 50px 35px;}
+#profile .profile-data table{width: 100%;}
+#profile .profile-data th, #profile .profile-data td {padding: 5px 0;text-align: left;}
+#profile .profile-data th{font-size: 14px;}
+#profile .profile-data td{font-size: 16px;}
+
+#submissions{margin: 80px 10px 50px;}
+#submissions h1{margin: 10px 0 0;}
+#submissions .acc:after{font-family: FontAwesome;content: "\f078";float: right;font-size: 15px}
+#submissions .active:after{content: "\f077" !important;font-family: FontAwesome;}
+#submissions .panel-heading a{color: #000;}
+#submissions .panel-heading a:hover, #submissions .panel-heading a:focus{text-decoration: none;color: #000 !important;}
+#submissions .panel-heading{background-color: #fff;border-bottom: none;}
+#submissions .panel-heading p{margin: 5px 0 0;}
+#submissions .panel-title{font-weight: 700;}
+#submissions #submissionsAccordion{margin: 20px 0;}
+
+#register img{margin: 10px 0 5px;}
+#registerBox form{text-align: left;}
+#registerBox{padding: 10px 20px;margin: 10px 10px 20px;}
+
+#regAgreement img{margin: 10px 0 5px;}
+#regAgreementBox{padding: 10px 20px;margin: 10px 10px 20px;}
+#regAgreementBox form{text-align: left;}
+
+#formBox{margin-top: 80px;margin-bottom: 40px;padding: 10px 20px;}
+#formBox h1{text-align: center;}
+
+#subAgreementBox{padding: 10px 20px;margin-top: 80px;margin-bottom: 80px}
+#subAgreementBox form{text-align: left;}
+
+#statement{font-family: 'Roboto', sans-serif;margin: 15px 30px;}
+#statement h1{text-align: center;font-size: 30px;}
+#statement table{width: 100%;}
+#statementSign{float: right;margin-right: 20px;}
+
+#stateAgreementBox{padding: 10px 20px;margin: 80px 10px 40px;}
+#stateAgreementBox form{text-align: left;}
+
+.letterhead table{width: 100%;height: 200px !important;text-align: center;border-spacing: 0px;border-bottom: 2px solid #000;}
+.letterhead table tr td{padding: 0;}
+.letterhead table tr td h1, .letterhead table tr td h2, .letterhead table tr td p{margin: 0;}
+.letterhead table tr td h1{font-size: 22px;}
+.letterhead table tr td h2{font-size: 18px;}
+.letterhead table tr td p{font-size: 16px;}
+
+#subFile{font-family: 'Roboto', sans-serif;margin: 15px 30px;}
+#subData h3{text-align: center;}
+#subData table{width: 100%;}
+#subSign{float: right;margin-right: 20px;}
+
+
+@media (max-width: 890px) {
+    .navbar-def, .navbar-def .navbar-header{background-color: rgba(0, 0, 0, 1);transition: .3s ease;}
+    .navbar-def.scrolled, .navbar-def.scrolled .navbar-header{background-color: #fff;}
+    .navbar-def .navbar-nav .open .dropdown-menu > li > a {color: rgba(0, 0, 0, .3);}
+    .navbar-def .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-def .navbar-nav .open .dropdown-menu > li > a:focus {color: rgba(0, 0, 0, .3);}
+
+    .landing-page{height: 616px;width: 100%;margin-top: 123px;}
+    .landing-page img{width: 100%;}
+    .landing-page h1{line-height: 40px;font-size: 20px;text-align: justify;}
+    .landing-page .row{margin: 120px 50px;}
+
+    #aboutUs{width: 100%;height: auto;}
+
+    #info{height: auto;}
+
+    #footer{background-color: #fff;}
+    #footer .list-account, #footer .list-menu{padding: 25px;}
+    #footer .contact{padding: 0 25px 25px;}
+    #footer .contact p{font-size: 16px;}
+    #footer .copyright{padding: 10px;background-color: #EEE;}
+    #footer .copyright a{text-decoration: none;color: #000;}
+
+    .login .login-head h1{font-size: 36px;}
+    .login .login-head p{font-size: 24px;}
+    .login .login-box{padding-bottom: 20px;}
+
+    #submissions #submissionsAccordion{margin: 20px 0 50px !important;}
+    #submissions h1{margin: 10px 0 0 !important;font-size: 24px;}
+
+    #registerBox{text-align: left;}
+
+    #formBox{margin: 80px 10px 40px;}
+}
+
+@media (max-width: 1335px) {
+    .login .login-box{padding-bottom: 23px;}
+}
+@font-face {  font-family: Open Sans Regular;  src: url(../font/OpenSans-Regular.ttf);  }
+@font-face {  font-family: Open Sans Bold;  src: url(../font/OpenSans-Bold.ttf);  }
+@font-face {  font-family: Open Sans Semi Bold;  src: url(../font/OpenSans-SemiBold.ttf);  }

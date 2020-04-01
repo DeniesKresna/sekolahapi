@@ -1,0 +1,69 @@
+{
+"list": [
+	{
+		"nomorlayout": 1,
+		"layoutname": "LED FULL 240x80",
+		"starttime": "2020-03-20 12:00:00",
+		"endtime": "2020-03-20 13:00:00",
+		"layout":
+			{
+				"tvid": "355853105999612",
+				"layoutid": 1,
+				"layoutname": "LED FULL 240x80",
+				"layouttype": "normal",
+				"timerlayout": 15000,
+				"layoutdetail": [
+					{
+						"idlayout": null,
+						"boxno": 1,
+						"typetemplate_detail": "video",
+						"publisher_id": null,
+						"addunitid": null,
+						"width": 200,
+						"height": 80,
+						"below": 0,
+						"rightof": 0,
+						"leftof": 0,
+						"fontsize": 0,
+						"periode": 15,
+						"sequencemedia": [/*
+							{
+							"iddetaillayout": 1,
+							"sequenceno": 239,
+							"idmedia": 4,
+							"typedata": "image",
+							"filename": "filler.jpg",
+							"labeltext": "UNTUK FILLER",
+							"urldownload": "http://localhost:280/signage/public/gallery/screen/medias/1584677822_1.jpg",
+							"campaign_id": 0,
+							"status": "aktif"
+							}*/
+						]
+					},
+					{
+						"idlayout": null,
+						"boxno": 2,
+						"typetemplate_detail": "image",
+						"publisher_id": null,
+						"addunitid": null,
+						"width": 40,
+						"height": 80,
+						"below": 0,
+						"rightof": 1,
+						"leftof": 0,
+						"fontsize": 0,
+						"periode": 15,
+						"sequencemedia": []
+					}
+				]
+			}
+	}
+],
+"status": "ok",
+"wake": "07:00",
+"sleep": "21:00",
+"timerdownload": "900",
+"timerestart": 120,
+"maxsizelemma": "200",
+"maxpendingdata": "75000"
+}
